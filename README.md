@@ -5,8 +5,8 @@
 [LM35 Documentation](http://www.ti.com/lit/ds/symlink/lm35.pdf)
 
 ## Ciruit Diagram
-![Wiring](https://github.com/Manghao/LM35/tree/master/schema/schema.png)
-![Pins map](https://github.com/Manghao/LM35/tree/master/schema/pins.png)
++ ![Wiring](https://github.com/Manghao/LM35/tree/master/schema/schema.png)
++ ![Pins map](https://github.com/Manghao/LM35/tree/master/schema/pins.png)
 
 ## Installation
 [Installing Additional Arduino Libraries](https://www.arduino.cc/en/Guide/Libraries)
