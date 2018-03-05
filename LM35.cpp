@@ -4,12 +4,12 @@
 
 LM35::LM35(int analogPin)
 {
-	_analogPin = analogPin;
+	this->_analogPin = analogPin;
 }
 
 double LM35::getTemp()
 {
-	double value = analogRead(_analogPin);
+	double value = analogRead(this->_analogPin);
 
 	double celcius = (double(value) * ((5.0 / 1023.0) / 0.01));
 
@@ -19,12 +19,12 @@ double LM35::getTemp()
 double LM35::getTemp(char unity)
 {
 	if (unity == 'F') {
-		return ((getTemp() * 1.8) + 32.0);
+		return ((this->getTemp() * 1.8) + 32.0);
 	}
 	if (unity == 'K') {
-		return (getTemp() + 273.15);
+		return (this->getTemp() + 273.15);
 	}
 	if (unity == 'C') {
-		return getTemp();
+		return this->getTemp();
 	}
 }
