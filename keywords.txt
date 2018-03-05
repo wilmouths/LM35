@@ -6,9 +6,9 @@
 # Datatypes (KEYWORD1)
 #######################################
 LM35	KEYWORD1
-CELCIUS KEYWORD1
-KELVIN KEYWORD1
-FAHRENHEIT KEYWORD1
+CELCIUS	KEYWORD1
+KELVIN	KEYWORD1
+FAHRENHEIT	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
