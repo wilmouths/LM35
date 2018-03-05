@@ -7,5 +7,5 @@ void setup() {
 }
 
 void loop() {
-  Serial.println(sensor.getTemp());
+  Serial.println(sensor.getTemp()); // Temp in celcius
 }

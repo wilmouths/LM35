@@ -26,17 +26,17 @@ LM35 lm35(0);
 ```cpp
 lm35.getTemp();
 // or
-lm35.getTemp('C');
+lm35.getTemp(CELCIUS);
 ```
 > This function returns the temperature in celsius
 
 If you want the temperature in Fahrenheit or Kelvin, you can add a parameter to the function.
 + Temperature in Fahrenheit
 ```cpp
-lm35.getTemp('F');
+lm35.getTemp(FAHRENHEIT);
 ```
 
 + Temperature in Kelvin
 ```cpp
-lm35.getTemp('K');
+lm35.getTemp(KELVIN);
 ```

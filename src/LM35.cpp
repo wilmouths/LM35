@@ -16,15 +16,15 @@ double LM35::getTemp()
 	return celcius;
 }
 
-double LM35::getTemp(char unity)
+double LM35::getTemp(Unity unity)
 {
-	if (unity == 'F') {
+	if (unity == FAHRENHEIT) {
 		return ((this->getTemp() * 1.8) + 32.0);
 	}
-	if (unity == 'K') {
+	if (unity == KELVIN) {
 		return (this->getTemp() + 273.15);
 	}
-	if (unity == 'C') {
+	if (unity == CELCIUS) {
 		return this->getTemp();
 	}
 }

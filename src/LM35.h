@@ -3,12 +3,18 @@
 
 #include "Arduino.h"
 
+enum Unity { 
+	CELCIUS, 
+	KELVIN,
+	FAHRENHEIT
+};
+
 class LM35 {
 
 	public:
 		LM35(int analogPin);
 		double getTemp();
-		double getTemp(char unity);
+		double getTemp(Unity unity);
 
 	private:
 		int _analogPin;
