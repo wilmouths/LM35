@@ -1,3 +1,7 @@
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+![version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
+![author](https://img.shields.io/badge/author-wilmouths-informational.svg)
+
 # LM35 Arduino library
 
 > This library for Arduino allows you to use the LM35 temperature sensor.
