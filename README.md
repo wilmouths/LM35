@@ -44,3 +44,9 @@ lm35.getTemp(FAHRENHEIT);
 ```cpp
 lm35.getTemp(KELVIN);
 ```
+
+## Contributors
+
+Thank you to all our [contributors](https://github.com/wilmouths/LM35/graphs/contributors)!
+
+[![](https://contrib.rocks/image?repo=wilmouths/LM35)](https://github.com/wilmouths/LM35/graphs/contributors)
